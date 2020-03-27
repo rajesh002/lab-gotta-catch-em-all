@@ -22,28 +22,25 @@ package model;
 
 
 public class Charizard extends Pokemon{
-	String characteristics;
-	String type;
-	String evolution;
-	String baseExp;
-	public Charizard(String pokemonName, int pokemonNumber,String characteristics,String type,String evolution,String baseExp) {
-		super(pokemonName, pokemonNumber);
-		this.characteristics=characteristics;
-		this.type=type;
-		this.evolution=evolution;
-		this.baseExp=baseExp;
+	String characteristics="Charizard is fit and strong and has the ability to soar up to ridiculous heights. With a single breath of fire, it can burn down forests and melt gigantic glaciers.";
+	String type="FIRE";
+	String evolution="CHARMELEON";
+	String baseExp="240";
+	public Charizard(String pokemonName, int pokemonNumber) {
+		super.pokemonName="Charizard";
+		super.pokemonNumber=006;
 	}
 	
-	public String getCharacteristics() {
+	public String characteristics() {
 		return this.characteristics;
 	}
-	public String getType() {
+	public String type() {
 		return this.type;
 	}
-	public String getEvolution() {
+	public String evolution() {
 		return this.evolution;
 	}
-	public String getBaseExp() {
+	public String baseExp() {
 		return this.baseExp;
 	}
 	

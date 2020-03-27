@@ -19,28 +19,25 @@ package model;
 //evolution = "NONE"
 //baseExp = "64" 
 public class Mew extends Pokemon{
-	String characteristics;
-	String type;
-	String evolution;
-	String baseExp;
-	public Mew(String pokemonName, int pokemonNumber,String characteristics,String type,String evolution,String baseExp) {
-		super(pokemonName, pokemonNumber);
-		this.characteristics=characteristics;
-		this.type=type;
-		this.evolution=evolution;
-		this.baseExp=baseExp;
+	String characteristics="Mew is a Psychic-type Mythical Pokémon introduced in Generation I. Mew is notable for its unique ability to learn every Technical Machine, Technical Record & Hidden Machine.";
+	String type="PSYCHIC";
+	String evolution="NONE";
+	String baseExp="64";
+	public Mew(String pokemonName, int pokemonNumber) {
+		super.pokemonName="Mew";
+		super.pokemonNumber=151;
 	}
 	
-	public String getCharacteristics() {
+	public String characteristics() {
 		return this.characteristics;
 	}
-	public String getType() {
+	public String type() {
 		return this.type;
 	}
-	public String getEvolution() {
+	public String evolution() {
 		return this.evolution;
 	}
-	public String getBaseExp() {
+	public String baseExp() {
 		return this.baseExp;
 	}
 	

@@ -10,10 +10,7 @@ package model;
 class Pokemon{
 	String pokemonName;
 	int pokemonNumber;
-	Pokemon(String pokemonName,int pokemonNumber){
-		this.pokemonName=pokemonName;
-		this.pokemonNumber=pokemonNumber;
-	}
+	
 	public String getPokemonName() {
 		return this.pokemonName;
 	}
