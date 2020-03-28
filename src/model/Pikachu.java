@@ -25,9 +25,9 @@ package model;
  * baseExp = "112"
  */
 public class Pikachu extends Pokemon{
-	String characteristics="Pikachu is an Electric-type Pokémon, which was introduced in Generation I. Over the years, Pikachu has become so popular that it serves as the Pokémon franchise";
+	String characteristics="Pikachu is an Electric-type Pokémon, which was introduced in Generation I. Over the years, Pikachu has become so popular that it serves as the Pokémon franchise mascot.";
 	String type="ELECTRIC";
-	String evolution="RAICHU";
+	String evolution="  RAICHU";
 	String baseExp="112";
 	public Pikachu(String pokemonName, int pokemonNumber) {
 		super.pokemonName="Pikachu";
